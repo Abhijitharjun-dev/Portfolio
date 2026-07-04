@@ -227,7 +227,7 @@ export const experience = [
     stack: ['Springboot', 'FastAPI','Temporal','N8N Workflow', 'LangChain', 'LangGraph','MCPServer','Agent 2 Agent Protocol', 'Docker'],
   },
   {
-    id: 'startup',
+    id: 'nintriva',
     role: 'Freelancer',
     company: 'Nintriva Technology Solutions',
     period: 'Jun 2024 — Oct 2024',
@@ -239,7 +239,7 @@ export const experience = [
     stack: ['FastAPI', 'SpringBoot','Redis','MySQL'],
   },
   {
-    id: 'startup',
+    id: 'innovature',
     role: 'Associate Softeare Engineer',
     company: 'Innovature',
     period: 'Sep 2023 — Jun 2024',

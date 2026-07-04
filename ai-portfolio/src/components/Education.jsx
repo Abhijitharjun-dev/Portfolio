@@ -5,7 +5,7 @@ import { getEducation } from '../services/portfolioService'
 export default function Education() {
   const { data } = usePortfolioData(getEducation)
   if (!data) return null
-  const { education, journey } = data
+  const { education, journey = [] } = data
 
   return (
     <Section
@@ -27,14 +27,16 @@ export default function Education() {
           ))}
         </div>
 
-        <ol className="journey reveal-child" aria-label="Learning journey timeline">
-          {journey.map((step) => (
-            <li className="journey-step" key={step.year}>
-              <span className="journey-year mono gradient-text">{step.year}</span>
-              <span className="journey-label">{step.label}</span>
-            </li>
-          ))}
-        </ol>
+        {journey.length > 0 && (
+          <ol className="journey reveal-child" aria-label="Learning journey timeline">
+            {journey.map((step) => (
+              <li className="journey-step" key={step.year}>
+                <span className="journey-year mono gradient-text">{step.year}</span>
+                <span className="journey-label">{step.label}</span>
+              </li>
+            ))}
+          </ol>
+        )}
       </div>
     </Section>
   )
