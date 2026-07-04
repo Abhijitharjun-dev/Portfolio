@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-// Cycles through `words` with a type / pause / delete rhythm.
+
 export function useTypewriter(words, { typeMs = 70, deleteMs = 40, pauseMs = 1800 } = {}) {
   const [text, setText] = useState('')
   const [wordIndex, setWordIndex] = useState(0)
