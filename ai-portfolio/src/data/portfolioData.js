@@ -10,18 +10,17 @@ export const profile = {
   roles: ['Software Engineer', 'AI Engineer', 'Agentic AI Developer', 'Full-Stack Developer'],
   tagline: 'I build intelligent software — from production-grade web platforms to autonomous AI agents.',
   summary:
-    'Software Engineer with 3 years of experience designing and shipping full-stack products, now specialising in applied AI engineering. I work at the intersection of robust software architecture and modern LLM systems — building RAG pipelines, multi-agent workflows with LangGraph, and MCP-based tool integrations that turn language models into dependable products.',
+    'Software Engineer with 2.5 years of experience designing and shipping full-stack products, now specialising in applied AI engineering.  building RAG pipelines, multi-agent workflows with LangGraph, and MCP-based tool integrations that turn language models into dependable products.',
   location: 'Kochi, Kerala, India',
-  email: 'abhijith.g.dev@gmail.com',
+  email: 'abhijitharjun882@gmail.com',
   resumeUrl: '#',
   social: {
     github: 'https://github.com/abhijith-g',
-    linkedin: 'https://www.linkedin.com/in/abhijith-g',
-    leetcode: 'https://leetcode.com/abhijith-g',
-    twitter: 'https://x.com/abhijith_g',
+    linkedin: 'https://www.linkedin.com/in/abhijith-g-9ab8a322b',
+    leetcode: 'https://leetcode.com/u/Abhijith_Arjun/',
   },
   heroStats: [
-    { label: 'Years Experience', value: '3+' },
+    { label: 'Years Experience', value: '2+' },
     { label: 'Projects Shipped', value: '15+' },
     { label: 'LeetCode Solved', value: '600+' },
     { label: 'AI Agents Built', value: '10+' },
@@ -41,8 +40,8 @@ export const aiSkills = [
     icon: '🦜',
     level: 90,
     blurb:
-      'Building LLM applications end-to-end: chains, structured output, tool calling, memory, and LCEL pipelines integrated with production backends.',
-    tags: ['LCEL', 'Tool Calling', 'Structured Output', 'Memory'],
+      'Building LLM applications end-to-end: chains, structured output, tool calling, memory, and LCEL pipelines',
+    tags: ['LCEL', 'Tool Calling', 'Structured Output'],
   },
   {
     id: 'langgraph',
@@ -50,8 +49,8 @@ export const aiSkills = [
     icon: '🕸️',
     level: 85,
     blurb:
-      'Designing stateful multi-agent systems as graphs — supervisor/worker patterns, human-in-the-loop interrupts, checkpoints and durable execution.',
-    tags: ['Multi-Agent', 'State Machines', 'Human-in-the-Loop', 'Checkpointing'],
+      'Designing stateful multi-agent systems as graphs —human-in-the-loop interrupts and checkpoints',
+    tags: ['Multi-Agent', 'Memory', 'Human-in-the-Loop', 'Checkpointing'],
   },
   {
     id: 'mcp',
@@ -60,7 +59,7 @@ export const aiSkills = [
     level: 82,
     blurb:
       'Authoring Model Context Protocol servers that expose internal tools, databases and APIs to LLM clients in a secure, standardised way.',
-    tags: ['Protocol Design', 'Tool Servers', 'Resources', 'Claude Integration'],
+    tags: ['Protocol Design', 'Tool Servers', 'Resources'],
   },
   {
     id: 'rag',
@@ -68,8 +67,8 @@ export const aiSkills = [
     icon: '📚',
     level: 88,
     blurb:
-      'Retrieval-Augmented Generation pipelines: chunking strategies, hybrid search, re-ranking, embeddings and evaluation for grounded, cited answers.',
-    tags: ['Vector DBs', 'Hybrid Search', 'Re-ranking', 'Evaluation'],
+      'Retrieval-Augmented Generation pipelines: chunking strategies, hybrid search, re-ranking, embeddings and cited answers.',
+    tags: ['Vector DBs', 'Hybrid Search', 'Re-ranking'],
   },
   {
     id: 'agents',
@@ -77,18 +76,9 @@ export const aiSkills = [
     icon: '🤖',
     level: 86,
     blurb:
-      'Autonomous and semi-autonomous agents: planning, tool orchestration, self-correction loops, sandboxed execution and cost/latency optimisation.',
-    tags: ['Planning', 'Tool Orchestration', 'Guardrails', 'Evals'],
-  },
-  {
-    id: 'llmops',
-    name: 'LLM Engineering',
-    icon: '⚙️',
-    level: 80,
-    blurb:
-      'Prompt engineering, model routing (LiteLLM), token/cost budgeting, streaming UX, caching and observability for LLM-powered features.',
-    tags: ['Prompting', 'LiteLLM', 'Streaming', 'Observability'],
-  },
+      'Autonomous and semi-autonomous agents: planning, tool orchestration, self-correction loops, and cost/latency optimisation.',
+    tags: ['Planning', 'Tool Orchestration', 'Guardrails'],
+  }
 ]
 
 export const skillCategories = [
@@ -96,38 +86,32 @@ export const skillCategories = [
     id: 'languages',
     title: 'Languages',
     icon: '</>',
-    skills: ['Python', 'JavaScript', 'TypeScript', 'Java', 'SQL', 'C++'],
+    skills: ['Java', 'Python', 'C++'],
   },
   {
     id: 'frontend',
     title: 'Frontend',
     icon: '◈',
-    skills: ['React', 'Redux Toolkit', 'Next.js', 'Tailwind CSS', 'HTML5 / CSS3', 'Vite'],
+    skills: ['React', 'Redux Toolkit', 'Next.js'],
   },
   {
     id: 'backend',
     title: 'Backend',
     icon: '⛁',
-    skills: ['Node.js', 'FastAPI', 'Express', 'Spring Boot', 'REST APIs', 'WebSockets'],
+    skills: ['Spring Boot', 'FastAPI','Django'],
   },
   {
     id: 'data',
     title: 'Databases & Vector Stores',
     icon: '🗄',
-    skills: ['PostgreSQL', 'MongoDB', 'Redis', 'Pinecone', 'ChromaDB', 'pgvector'],
+    skills: ['MySQL', 'MongoDB', 'Redis'],
   },
   {
     id: 'cloud',
     title: 'Cloud & DevOps',
     icon: '☁',
-    skills: ['AWS', 'Docker', 'Kubernetes', 'GitHub Actions', 'Nginx', 'Linux'],
-  },
-  {
-    id: 'practices',
-    title: 'Practices',
-    icon: '✓',
-    skills: ['System Design', 'Microservices', 'TDD', 'Agile / Scrum', 'Code Review', 'CI/CD'],
-  },
+    skills: ['Docker', 'Kubernetes', 'GitHub Actions']
+  }
 ]
 
 export const projects = [
@@ -201,25 +185,28 @@ export const projects = [
 
 export const leetcode = {
   username: 'abhijith-g',
-  profileUrl: 'https://leetcode.com/abhijith-g',
-  totalSolved: 612,
-  totalQuestions: 3300,
-  ranking: 'Top 5%',
-  contestRating: 1742,
-  streak: 120,
-  badges: ['100 Days Badge', 'Dynamic Programming I', 'SQL 50', 'Knight'],
+  profileUrl: 'https://leetcode.com/u/Abhijith_Arjun/',
+  totalSolved: 614,
+  totalQuestions: 3977,
+  rank: '126,983',
+  badges: ['2 - 100 Days Badge', '2 - 50 Days Badge', 'Daily Activities Jun Badge','Daily Activities July Badge'],
   difficulty: [
-    { label: 'Easy', solved: 218, total: 830, color: 'var(--success)' },
-    { label: 'Medium', solved: 322, total: 1740, color: 'var(--warning)' },
-    { label: 'Hard', solved: 72, total: 730, color: 'var(--danger)' },
+    { label: 'Easy', solved: 216, total: 951, color: 'var(--success)' },
+    { label: 'Medium', solved: 306, total: 2077, color: 'var(--warning)' },
+    { label: 'Hard', solved: 92, total: 949, color: 'var(--danger)' },
   ],
   topics: [
-    { name: 'Arrays & Hashing', solved: 130 },
-    { name: 'Dynamic Programming', solved: 85 },
-    { name: 'Trees & Graphs', solved: 98 },
-    { name: 'Two Pointers / Sliding Window', solved: 74 },
-    { name: 'Binary Search', solved: 52 },
-    { name: 'Heaps & Greedy', solved: 61 },
+    { name: 'Arrays', solved: 323 },
+     { name: 'String', solved: 129 },
+    { name: 'Dynamic Programming', solved: 109 },
+    { name: 'Sorting', solved: 72 },
+    { name: 'Hash Table', solved: 106 },
+    { name: 'Two Pointers', solved: 64 },
+    { name: 'Linked List', solved: 42 },
+    { name: 'Stack', solved: 37 },
+    { name: 'Graph', solved: 74 },
+    { name: 'Backtracking', solved: 32 },
+    { name: 'Divide and conquer', solved: 23 },
   ],
 }
 
@@ -228,91 +215,75 @@ export const experience = [
     id: 'geojit',
     role: 'Software Engineer',
     company: 'Geojit Financial Services',
-    period: 'Jun 2023 — Present',
+    period: 'Oct 2024 — Present',
     location: 'Kochi, India',
     points: [
-      'Built and maintain a CRM platform used by 500+ relationship managers, owning features from React frontend to FastAPI/PostgreSQL backend.',
-      'Introduced an AI copilot into the CRM: RAG over client data, LLM-drafted communications and agentic task automation with approval workflows.',
-      'Designed MCP servers connecting internal databases and APIs to LLM assistants, standardising tool access across teams.',
-      'Improved API p95 latency by 45% through query optimisation, Redis caching and connection pooling.',
+    
+      'Devloped MCP servers connecting internal databases and APIs to LLM assistants.',
+      'Deployed LLM integrateD application by guiding the First AI project of Geojit alone',
+      'Created workflow in temporal for client onboarding and N8N for agent orchestration'
+      
     ],
-    stack: ['React', 'FastAPI', 'PostgreSQL', 'LangChain', 'LangGraph', 'Docker'],
+    stack: ['Springboot', 'FastAPI','Temporal','N8N Workflow', 'LangChain', 'LangGraph','MCPServer','Agent 2 Agent Protocol', 'Docker'],
   },
   {
     id: 'startup',
-    role: 'Software Engineer Intern → Junior Developer',
-    company: 'TechNova Solutions',
-    period: 'Jan 2023 — May 2023',
-    location: 'Remote',
+    role: 'Freelancer',
+    company: 'Nintriva Technology Solutions',
+    period: 'Jun 2024 — Oct 2024',
+    location: 'Kochi,India',
     points: [
-      'Developed REST APIs and React components for a SaaS analytics product.',
-      'Wrote integration tests raising backend coverage from 40% to 75%.',
-      'Automated deployment with GitHub Actions and Docker, cutting release time from hours to minutes.',
+      'Developed REST APIs and React components for a product.',
+      'Wrote integration tests raising backend coverage more than 80%.',
     ],
-    stack: ['Node.js', 'React', 'MongoDB', 'GitHub Actions'],
+    stack: ['FastAPI', 'SpringBoot','Redis','MySQL'],
+  },
+  {
+    id: 'startup',
+    role: 'Associate Softeare Engineer',
+    company: 'Innovature',
+    period: 'Sep 2023 — Jun 2024',
+    location: 'Kochi,India',
+    points: [
+      'Developed REST APIs and job Schedulars,Chat Application using websockets ',
+      'Wrote integration tests raising for frontend (React) backend (SpringBoot) coverage more than 80%.',
+    ],
+    stack: ['FastAPI', 'SpringBoot','Django','Redis','MySQL'],
   },
 ]
 
 export const certifications = [
   {
-    id: 'aws-dev',
-    name: 'AWS Certified Developer — Associate',
-    issuer: 'Amazon Web Services',
-    year: '2025',
+    id: 'google',
+    name: 'Google Digital marketing',
+    issuer: 'Digital marketing',
+    year: '2023',
     icon: '☁️',
     url: '#',
   },
   {
-    id: 'langchain-cert',
-    name: 'LangChain & LangGraph: Building AI Agents',
-    issuer: 'LangChain Academy',
+    id: 'IBM',
+    name: 'IBM: Building AI Agents',
+    issuer: 'IBM',
     year: '2025',
     icon: '🦜',
     url: '#',
-  },
-  {
-    id: 'deeplearning-rag',
-    name: 'Building & Evaluating Advanced RAG',
-    issuer: 'DeepLearning.AI',
-    year: '2024',
-    icon: '📚',
-    url: '#',
-  },
-  {
-    id: 'meta-react',
-    name: 'Meta Front-End Developer Professional Certificate',
-    issuer: 'Meta / Coursera',
-    year: '2023',
-    icon: '⚛️',
-    url: '#',
-  },
+  }
 ]
 
 export const achievements = [
   {
-    id: 'hackathon',
-    title: 'Winner — Internal AI Hackathon 2025',
-    detail: 'Built a multi-agent compliance assistant in 48 hours; now being productionised.',
+    id: 'jee',
+    title: 'JEE-Main',
+    detail: 'Cleared the examination of JEE main in 2018 and acheved class topper at the same time',
     icon: '🏆',
   },
   {
-    id: 'leetcode-600',
-    title: '600+ LeetCode Problems Solved',
-    detail: 'Knight badge, 1742 contest rating, 120-day solving streak.',
-    icon: '⚔️',
-  },
-  {
-    id: 'spot-award',
-    title: 'Spot Award for Engineering Excellence',
-    detail: 'Recognised for the CRM AI copilot rollout and its measurable business impact.',
+    id: 'best-performer',
+    title: 'Best Performer',
+    detail: 'Acheived the 5/5 rating in Appraisal meeing in Geojit',
     icon: '🌟',
-  },
-  {
-    id: 'oss',
-    title: 'Open Source Contributor',
-    detail: 'Contributions to LangChain community integrations and MCP server examples.',
-    icon: '🌱',
-  },
+  }
 ]
 
 export const education = [
@@ -321,14 +292,14 @@ export const education = [
     degree: 'B.Tech in Computer Science & Engineering',
     institution: 'APJ Abdul Kalam Technological University',
     period: '2019 — 2023',
-    detail: 'CGPA 8.7/10 · Coursework: Data Structures, Algorithms, DBMS, Operating Systems, Machine Learning.',
+    detail: 'CGPA 9.12/10 · Coursework: Data Structures, Algorithms, DBMS, Operating Systems, Web Dev elopment',
   },
 ]
 
-export const learningJourney = [
-  { year: '2021', label: 'Started competitive programming & web development' },
-  { year: '2023', label: 'Graduated · joined industry as a full-stack engineer' },
-  { year: '2024', label: 'Deep-dived into LLMs, embeddings and RAG systems' },
-  { year: '2025', label: 'Shipped production agentic systems with LangGraph & MCP' },
-  { year: '2026', label: 'Exploring multi-agent orchestration & AI evaluation at scale' },
-]
+// export const learningJourney = [
+//   { year: '2021', label: 'Started competitive programming & web development' },
+//   { year: '2023', label: 'Graduated · joined industry as a full-stack engineer' },
+//   { year: '2024', label: 'Deep-dived into LLMs, embeddings and RAG systems' },
+//   { year: '2025', label: 'Shipped production agentic systems with LangGraph & MCP' },
+//   { year: '2026', label: 'Exploring multi-agent orchestration & AI evaluation at scale' },
+// ]
